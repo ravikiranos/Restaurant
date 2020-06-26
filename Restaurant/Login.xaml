@@ -1,0 +1,48 @@
+﻿<Window x:Class="Restaurant.Login"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" BorderThickness="0" WindowStyle="None" BorderBrush="Black" ResizeMode="NoResize"
+Title="Login" Height="600" Width="900" WindowState="Normal" WindowStartupLocation="CenterScreen" Background="Black">
+    <Grid  Height="500" Width="525" Margin="-135,-5,-20,-95">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/zakaria-zayane-0uAVsDcyD0M-unsplash.jpg" />
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="221*"/>
+            <ColumnDefinition Width="102*"/>
+            <ColumnDefinition Width="202*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,0,0,322" Name="textBlockHeading" Text="" VerticalAlignment="Bottom" Width="110"  FontSize="17" FontStretch="ExtraCondensed" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-2.688"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.54"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Grid Margin="78,0,-8,42" Background="White" Height="285" VerticalAlignment="Bottom" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="252*" />
+                <!--   <RowDefinition Height="12*" />-->
+            </Grid.RowDefinitions>
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="67,80,0,0" Name="textBlockEmailId" Text="EmailId" VerticalAlignment="Top" Width="110" />
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="67,107,0,0" Name="textBlockPassword" Text="Password:" VerticalAlignment="Top" Width="110"  />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="183,80,0,0" Name="textBoxEmail" VerticalAlignment="Top" Width="222" TextChanged="textBoxEmail_TextChanged" />
+            <PasswordBox Height="23" HorizontalAlignment="Left" Margin="183,107,0,0" Name="passwordBox1" VerticalAlignment="Top" Width="222" />
+            <!--For password-->
+            <Button Content="Login" Height="23" HorizontalAlignment="Left" Margin="183,156,0,0" Name="Submit" VerticalAlignment="Top" Width="70" Click="Submit_Click" />
+            <Button Content="Cancel" Height="23" HorizontalAlignment="Right" Margin="0,156,98,0" Name="button3" VerticalAlignment="Top" Width="70" Click="button3_Click" RenderTransformOrigin="-0.257,-1.739" />
+            <TextBlock HorizontalAlignment="Left" Margin="210,209,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.102,1.562">
+                <Hyperlink>Register</Hyperlink>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" Margin="183,230,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" RenderTransformOrigin="0.102,1.562">
+                <Hyperlink Click="Button_Click">Forgot Password</Hyperlink>
+            </TextBlock>
+
+
+        </Grid>
+        
+    </Grid>
+
+</Window>

@@ -27,13 +27,8 @@ namespace Restaurant
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             Sample objmainwinobj = new Sample();
-           
-
             grid2.Children.Clear();
-
             grid2.Children.Add(objmainwinobj);
-
-
         }
 
         private void MenuItem_Click_1(object sender, RoutedEventArgs e)
