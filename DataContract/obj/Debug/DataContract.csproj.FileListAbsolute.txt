@@ -1,0 +1,6 @@
+C:\Users\ravi1\source\repos\Restaurant\DataContract\bin\Debug\DataContract.dll
+C:\Users\ravi1\source\repos\Restaurant\DataContract\bin\Debug\DataContract.pdb
+C:\Users\ravi1\source\repos\Restaurant\DataContract\obj\Debug\DataContract.csprojAssemblyReference.cache
+C:\Users\ravi1\source\repos\Restaurant\DataContract\obj\Debug\DataContract.csproj.CoreCompileInputs.cache
+C:\Users\ravi1\source\repos\Restaurant\DataContract\obj\Debug\DataContract.dll
+C:\Users\ravi1\source\repos\Restaurant\DataContract\obj\Debug\DataContract.pdb

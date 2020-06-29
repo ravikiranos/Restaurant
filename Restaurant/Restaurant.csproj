@@ -169,5 +169,15 @@
   <ItemGroup>
     <Resource Include="Resources\zakaria-zayane-0uAVsDcyD0M-unsplash.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BAL\BAL.csproj">
+      <Project>{a717e17f-687d-491e-91c2-3a67d8a4a1ee}</Project>
+      <Name>BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataContract\DataContract.csproj">
+      <Project>{e8476b94-b2c1-4af6-a2b3-7de57fec8f0c}</Project>
+      <Name>DataContract</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

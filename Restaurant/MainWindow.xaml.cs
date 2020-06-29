@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using BAL;
+using DataContract;
 
 namespace Restaurant
 {
@@ -23,6 +12,18 @@ namespace Restaurant
         public MainWindow()
         {
             InitializeComponent();
+            
+            BLUserResgistration blUserResgistration = new BLUserResgistration();
+            DCUserResgistration dcBLUserResgistration = new DCUserResgistration();
+
+            //getting list of all users
+            blUserResgistration.GetUsersSample(0);
+
+
+            dcBLUserResgistration.UserID = 123;
+            dcBLUserResgistration.FirstName = "Ravi";
+            //inserting or uodating or deleting
+            blUserResgistration.InsertUpdateUsersSample(dcBLUserResgistration);
         }
     }
 }

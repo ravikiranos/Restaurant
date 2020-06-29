@@ -1,0 +1,11 @@
+C:\Users\ravi1\source\repos\Restaurant\BAL\bin\Debug\BAL.dll
+C:\Users\ravi1\source\repos\Restaurant\BAL\bin\Debug\BAL.pdb
+C:\Users\ravi1\source\repos\Restaurant\BAL\obj\Debug\BAL.csprojAssemblyReference.cache
+C:\Users\ravi1\source\repos\Restaurant\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+C:\Users\ravi1\source\repos\Restaurant\BAL\obj\Debug\BAL.dll
+C:\Users\ravi1\source\repos\Restaurant\BAL\obj\Debug\BAL.pdb
+C:\Users\ravi1\source\repos\Restaurant\BAL\bin\Debug\DAL.dll
+C:\Users\ravi1\source\repos\Restaurant\BAL\bin\Debug\DataContract.dll
+C:\Users\ravi1\source\repos\Restaurant\BAL\bin\Debug\DAL.pdb
+C:\Users\ravi1\source\repos\Restaurant\BAL\bin\Debug\DataContract.pdb
+C:\Users\ravi1\source\repos\Restaurant\BAL\obj\Debug\BAL.csproj.CopyComplete
